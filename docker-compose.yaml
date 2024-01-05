@@ -1,9 +1,0 @@
-services:
-  api:
-    image: api
-    build: container
-    volumes:
-      - ./container/src:/opt/container
-      - ./data:/opt/data
-    ports:
-      - 8080:8080
